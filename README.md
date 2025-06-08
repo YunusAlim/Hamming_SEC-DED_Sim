@@ -89,7 +89,7 @@ Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklam
 
 ## 🔗 Tanıtım Videosu
 
-- 🎥 Video Sunum: [youtube.com/watch?v=ornekvideo](#)
+- 🎥 Video Sunum: [[youtube.com/watch?v=ornekvideo](#)](https://www.youtube.com/watch?v=-gV-d8igrlE&ab_channel=YunusAlimAvsar)
 
 ---
 
