@@ -32,28 +32,22 @@ Projede sadece Python dili kullanılmıştır. Güncel Pyhton ile projeyi çalı
 
 ---
 
+
 ## 🧩 Kod Açıklamaları
 
-### `hamming_module.py`
-- `encode_hamming()` → SEC-DED kodu üretir
-- `inject_error()` → rastgele ya da belirli bitte hata oluşturur
-- `detect_and_correct()` → sendrom hesaplar, hatayı düzeltir
-
-### `hamming_gui.py`
-- Tkinter arayüz
-- Kullanıcıdan veri alır, kodlar, hata oluşturur ve düzeltir
+Kodun açıklamaları, Python dosyaları içinde yorum satırlarında açıkca belirtilmiştir bunun yanında seçilen sınıfların ve fonksiyonların isimleri kodu basit olarak tanıtacak şekilde seçilmiştir.
 
 ---
 
 
 ## 🖼️ Ekran Görüntüleri
 
-> `ekran_goruntuleri/` klasöründe arayüzün çeşitli aşamalarını içeren ekran görüntüleri yer almaktadır:
+Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklamalar yapılmıştır.
 
-- Veri girişi
-- Kodlama sonrası çıktı
-- Hata sonrası bozulmuş veri
-- Düzeltme işlemi
+![image](https://github.com/user-attachments/assets/86f71610-6e92-466a-9e39-5bb259fc546a)
+Kodun çalıştırınca gelen ana ekran her işlem bu ekran üzerinden kolayca gerçekleştirilir.
+
+
 
 ---
 
