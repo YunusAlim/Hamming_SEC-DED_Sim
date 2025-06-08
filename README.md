@@ -47,6 +47,7 @@ Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklam
 ![image](https://github.com/user-attachments/assets/86f71610-6e92-466a-9e39-5bb259fc546a)
 - Kodu çalıştırınca gelen ana ekran her işlem bu ekran üzerinden kolayca gerçekleştirilir.
 
+
 ![image](https://github.com/user-attachments/assets/ca523930-e6a7-488f-a905-c553727ad800)
 - Gireceğiniz veya otomatik olarak oluştacağınız verinin boyutunu seçtiğiniz ekran.
 
