@@ -33,7 +33,7 @@ class HammingCore:
         return True, "Data encoded successfully"
 
     def introduce_single_error(self):
-        # Tek bit hata oluştur
+        # Tek bit hata 
         if not self.current_code:
             return False, "No data to modify"
 
@@ -45,7 +45,7 @@ class HammingCore:
         return True, f"Single error introduced at position {error_pos}"
 
     def introduce_double_error(self):
-        # Çift bit hata oluştur
+        # Çift bit hata 
         if not self.current_code:
             return False, "No data to modify"
 
@@ -64,10 +64,10 @@ class HammingCore:
         if not self.current_code:
             return False, "No data to analyze"
 
-        # Kodu analiz et
+        # Kodanaliz
         decoded, status = self.decode_hamming_secded(self.current_code['current'])
 
-        # Sendrom hesapla
+        # Sendrom
         syndrome = 0
         received = self.current_code['current']
         for i in range(len(received)):
@@ -124,7 +124,7 @@ class HammingCore:
         return False, "No correction needed or possible"
 
     def encode_hamming_secded(self, data):
-        # Hamming SEC-DED kodlaması
+        #  SEC-DED 
         data_bits = len(data)
         parity_bits = self.calculate_parity_bits(data_bits)
         total_bits = data_bits + parity_bits
@@ -140,7 +140,7 @@ class HammingCore:
                     codeword[i] = data[data_index]
                     data_index += 1
 
-        # Parite bitlerini hesapla
+        # Parity bitlerini hesapla
         for i in range(total_bits):
             if self.is_power_of_2(i) and i != 0:
                 parity = 0
@@ -150,7 +150,7 @@ class HammingCore:
                             parity ^= int(codeword[k])
                 codeword[i] = str(parity)
 
-        # Genel parite bitini hesapla
+        # Genel parity bitini hesapla
         overall_parity = 0
         for bit in codeword[1:]:
             overall_parity ^= int(bit)
@@ -159,14 +159,14 @@ class HammingCore:
         return ''.join(codeword)
 
     def decode_hamming_secded(self, received):
-        # Hamming SEC-DED kodunu çöz
+        #  SEC-DED kodunu çöz
         if not received:
             return None, "No data to decode"
 
         total_bits = len(received)
         syndrome = 0
 
-        # Sendrom hesapla
+        # Sendrom
         for i in range(total_bits):
             if self.is_power_of_2(i) and i != 0:
                 parity = 0
@@ -176,7 +176,7 @@ class HammingCore:
                 if parity != 0:
                     syndrome += i
 
-        # Genel pariteyi hesapla
+        # Genel parity hesapla
         overall_parity = 0
         for bit in received:
             overall_parity ^= int(bit)
@@ -188,7 +188,7 @@ class HammingCore:
             return self.extract_data_bits(received), f"Single error detected at position {syndrome}"
         elif syndrome != 0 and overall_parity == 0:
             return None, "Double error detected (uncorrectable)"
-        else:  # syndrome == 0 and overall_parity != 0
+        else:  # syndrome == 0 and overall_parity != 0    ai hata alma sebebi genelparity bitinin kontrolu
             return None, "Error in overall parity bit"
 
     def correct_single_error(self, received, error_position):
@@ -208,17 +208,17 @@ class HammingCore:
         return ''.join(data_bits)
 
     def calculate_parity_bits(self, data_bits):
-        # Parite bit sayısını hesapla
+        # Parity bit sayısını hesapla
         m = data_bits
         r = 1
         while (2 ** r) < (m + r + 1):
             r += 1
-        return r + 1  # +1 for overall parity bit
+        return r + 1  # +1 genel parity biti
 
     def is_power_of_2(self, n):
-        # Sayının 2'nin kuvveti olup olmadığını kontrol et
+        #  2'nin kuvveti çek
         return n > 0 and (n & (n - 1)) == 0
 
     def get_current_code(self):
-        # Mevcut kod durumunu döndür
+        # Mevcut kod çek
         return self.current_code 
