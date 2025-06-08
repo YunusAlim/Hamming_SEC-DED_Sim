@@ -12,7 +12,7 @@ Bu proje, BLM230 Bilgisayar Mimarisi dersi projesi için geliştirilmiş bir **H
 - [Kurulum]
 - [Kod Açıklamaları]
 - [Ekran Görüntüleri]
-- [Kaynak Kod ve Video]
+- [Tanıtım Videosu]
 
 ---
 
@@ -76,6 +76,9 @@ Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklam
 ![image](https://github.com/user-attachments/assets/067e5d61-00b9-4890-b8da-71069f9c67b5)
 - 32 bitlik başka bir verinin iki bitinin rastgele bozulması sonucu oluşan ekran.
 
+![image](https://github.com/user-attachments/assets/9616f639-b04d-41e3-ac96-6312a31a5475)
+- Üstte iki bitinin rastgele olarak bozulduğu 32 bitlik verinin düzeltilmesi için verilen komut sonrası oluşan ekran.
+
 
 
 
@@ -84,9 +87,8 @@ Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklam
 ---
 
 
-## 🔗 Kaynak Kod ve Video
+## 🔗 Tanıtım Videosu
 
-- 💻 GitHub: [github.com/kullaniciAdi/hamming-simulator](#)
 - 🎥 Video Sunum: [youtube.com/watch?v=ornekvideo](#)
 
 ---
