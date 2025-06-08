@@ -53,7 +53,13 @@ Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklam
 
 
 ![image](https://github.com/user-attachments/assets/5bc5b408-f6e7-4da7-8c1a-105db1b0ca30)
-- Verinin girildiği (veya generate tuşu ile rastgele oluşturulduğu) ardından hamming koda dönüştürülmesi ve üzerinde işlem yapabilmek için kaydedilmesi için tuşların bulunduğu ekran. 
+- Verinin girildiği (veya generate tuşu ile rastgele oluşturulduğu) ardından hamming koda dönüştürülmesi ve kaydedilmesi için tuşların bulunduğu ekran.
+
+![image](https://github.com/user-attachments/assets/2c8d094a-54e9-4cbb-8cd6-86c069730c5f)
+- Kaydedilen kodun; soldan sağa olacak şekilde tek bitlik hata oluşturma, iki bitlik hata oluşturma, hata tespiti ve düzeltme için kullanılan butonların yer aldığı ekran.
+
+![image](https://github.com/user-attachments/assets/66056a45-9f4b-4964-a8c4-ac3e370e94ad)
+- İlk açıldığında boş olarak gelen her adımda değişen yapılan değişikliklerin kaydedildiği ve kullanıcıya bildirildiği ekran bu ekranın bir kaç değişiklikten sonra nasıl gözüktüğü altta belirtilmiştir.
 
 
 
