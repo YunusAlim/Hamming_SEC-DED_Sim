@@ -52,6 +52,11 @@ Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklam
 - Gireceğiniz veya otomatik olarak oluştacağınız verinin boyutunu seçtiğiniz ekran.
 
 
+![image](https://github.com/user-attachments/assets/5bc5b408-f6e7-4da7-8c1a-105db1b0ca30)
+- Verinin girildiği (veya generate tuşu ile rastgele oluşturulduğu) ardından hamming koda dönüştürülmesi ve üzerinde işlem yapabilmek için kaydedilmesi için tuşların bulunduğu ekran. 
+
+
+
 
 
 
