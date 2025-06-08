@@ -61,6 +61,21 @@ Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklam
 ![image](https://github.com/user-attachments/assets/66056a45-9f4b-4964-a8c4-ac3e370e94ad)
 - İlk açıldığında boş olarak gelen her adımda değişen yapılan değişikliklerin kaydedildiği ve kullanıcıya bildirildiği ekran bu ekranın bir kaç değişiklikten sonra nasıl gözüktüğü altta belirtilmiştir.
 
+![image](https://github.com/user-attachments/assets/f447af51-2e93-4b65-8ae5-638e18f1358b)
+- 8 bitlik verinin seçildiği ve girildiği durumda ekran.
+
+![image](https://github.com/user-attachments/assets/f73372a2-aa43-4fcf-b322-5caa419fa258)
+- Aynı verinin girildikten sonra bir bitlik hata ile bozulduğu durumda ekran.
+
+![image](https://github.com/user-attachments/assets/50b70953-f83a-427a-b072-42d8678c9e73)
+- Bozulan kodun düzeltilmesi için tıklanıldığında gelen doğrulama ekranı.
+
+![image](https://github.com/user-attachments/assets/25a3d999-00bc-4b97-ad78-65b2a8342846)
+- Bozulan kodun düzeltilmesine verilen onay sonrasında kodun düzeltilmesi ve veriyi eski haline çevirme işlemi.
+
+![image](https://github.com/user-attachments/assets/067e5d61-00b9-4890-b8da-71069f9c67b5)
+- 32 bitlik başka bir verinin iki bitinin rastgele bozulması sonucu oluşan ekran.
+
 
 
 
