@@ -45,7 +45,7 @@ Kodun açıklamaları, Python dosyaları içinde yorum satırlarında açıkca b
 Bu kısımda GUI daha iyi tanıtabilmek için ekran görüntüleri ile açıklamalar yapılmıştır.
 
 ![image](https://github.com/user-attachments/assets/86f71610-6e92-466a-9e39-5bb259fc546a)
-Kodun çalıştırınca gelen ana ekran her işlem bu ekran üzerinden kolayca gerçekleştirilir.
+-Kodun çalıştırınca gelen ana ekran her işlem bu ekran üzerinden kolayca gerçekleştirilir.
 
 
 
