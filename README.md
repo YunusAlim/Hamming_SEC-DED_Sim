@@ -8,11 +8,11 @@ Bu proje, BLM230 Bilgisayar Mimarisi dersi projesi için geliştirilmiş bir **H
 
 ## 📌 İçindekiler
 
-- [Genel Bakış](#genel-bakış)
-- [Kurulum](#kurulum)
-- [Kod Açıklamaları](#kod-açıklamaları)
-- [Ekran Görüntüleri](#ekran-görüntüleri)
-- [Kaynak Kod ve Video](#kaynak-kod-ve-video)
+- [Genel Bakış]
+- [Kurulum]
+- [Kod Açıklamaları]
+- [Ekran Görüntüleri]
+- [Kaynak Kod ve Video]
 
 ---
 
